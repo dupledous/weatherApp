@@ -24,7 +24,7 @@ form.addEventListener('submit', async (e) => {
             if (climate === 'Clear') {
                 weatherResult.style.backgroundColor = "lightblue";
             } else if (climate === 'Rain') {
-                weatherResult    .style.backgroundColor = "lightgray";
+                weatherResult.style.backgroundColor = "lightgray";
             }
             setTimeout(() => {
                 weatherResult.innerHTML = `
